@@ -35,6 +35,11 @@ Below are figures from the manuscript that illustrate the total amount of food c
 </table>
 
 ## Simulations 
+Access to OpenAI's ChatGPT GPT4o model is required. 
+1. The ants simulation files are in the `ants` folder. There are two NetLogo scripts: `AntColony_Hybrid_LLM_Rulebased.nlogo` runs the hybrid model (LLM + NetLogo), whereas the `AntColony_LLM_Only.nlogo` runs the purely LLM-controlled model.
+2. The flocking simulations are in the `birds` folder. The NetLogo script `bird_flocking_hybrid_llm_rulebased.nlogo` runs the hybrid model.
+
+The pure NetLogo models are already included in the main NetLogo program. The `.txt` in the folders show the prompt evolution and fine-tuning during the simulations.
 
 ## Plotting 
 The folders `ants` and `birds` contain Python scripts for plotting and the results as csv files. To reproduce the plots from the manuscript:
