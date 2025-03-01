@@ -33,3 +33,10 @@ Below are figures from the manuscript that illustrate the total amount of food c
     </td>
   </tr>
 </table>
+
+## Simulations 
+
+## Plotting 
+The folders `ants` and `birds` contain Python scripts for plotting and the results as csv files. To reproduce the plots from the manuscript:
+1. Ant colony simulation results: Execute `ants/data/ants_food_collection.py`
+2. Bird flocing simulation results: Execute: `birds/data/flocking.py`
