@@ -73,6 +73,7 @@ def plot_statistical_results(results, **kwargs):
     p.set_ylim(0.0, 0.25)
     p.set_xlabel("")
     p.legend(loc="center left", bbox_to_anchor=(1, 0.5), title="Metric")
+    plt.xlabel("Model Comparison")
     plt.ylabel("Value")
     # plt.legend(title="Metric")
     if kwargs["savefig"]:
